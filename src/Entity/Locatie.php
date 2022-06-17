@@ -16,7 +16,7 @@ class Locatie
     #[ORM\Column(type: 'string', length: 255)]
     private $locatie;
 
-    #[ORM\Column(type: 'string', length: 255)]
+    #[ORM\Column(type: 'text')]
     private $beschrijving;
 
     #[ORM\Column(type: 'string', length: 255, nullable: true)]
