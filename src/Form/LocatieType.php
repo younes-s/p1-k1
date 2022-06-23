@@ -16,8 +16,7 @@ class LocatieType extends AbstractType
             ->add('locatie')
             ->add('beschrijving', CKEditorType::class, array(
                 'config' => array(
-                    'uiColor' => '#33FFEC',
-                    //...
+                    'uiColor' => '#FFED03',
                 ),
             ))
             ->add('email')
